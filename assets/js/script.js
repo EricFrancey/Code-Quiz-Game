@@ -53,7 +53,7 @@ function init() {
 
 function startGame() {
     qEl1.setAttribute ("style", "display: block")
-    timerCount = 20;
+    timerCount = 30;
     startButton.disabled = true;
     startTimer()
 
@@ -69,6 +69,16 @@ option3d.addEventListener("click", toEnd)
 
 //incorrect answers
 option1a.addEventListener("click", minusTime)
+option1c.addEventListener("click", minusTime)
+option1d.addEventListener("click", minusTime)
+
+option2a.addEventListener("click", minusTime)
+option2b.addEventListener("click", minusTime)
+option2d.addEventListener("click", minusTime)
+
+option3a.addEventListener("click", minusTime)
+option3b.addEventListener("click", minusTime)
+option3c.addEventListener("click", minusTime)
 
 function showScores() {
 
