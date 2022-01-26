@@ -84,7 +84,7 @@ function startTimer() {
       timerCount--;
       timerElement.textContent = timerCount;
       score = timerCount;
-    if (timerCount === 0) {
+    if (timerCount <= 0) {
       clearInterval(timer);
       toEnd();
     }}
