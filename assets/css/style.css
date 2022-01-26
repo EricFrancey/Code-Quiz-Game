@@ -1,0 +1,94 @@
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Style the header */
+    .header {
+      background-color: #f1f1f1;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+    }
+    
+    /* Container for flexboxes */
+    .row {
+      display: -webkit-flex;
+      display: flex;
+    }
+
+    .button {
+
+      background-color: blue;
+    }
+
+
+    /* Styling for main body */
+    .question1 {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      padding: 10px; 
+      display: none;
+    }
+
+    .question2 {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      padding: 10px; 
+      display: none;
+    }
+
+    .question3 {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      padding: 10px; 
+      display: none;
+    }
+
+    .timer-container {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      padding: 10px; 
+    }
+
+    .start-container {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      padding: 10px; 
+    }
+    .hi-score {
+
+      display:inline;
+
+  
+    }
+
+    .end-game {
+      display: none;
+
+    }
+
+
+    .footer {
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media (max-width: 600px) {
+      .row {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+      }
+    }
+ 
