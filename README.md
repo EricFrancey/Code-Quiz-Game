@@ -12,7 +12,7 @@ You have 30 seconds to answer three questions. Every wrong answer reduces your t
 https://ericfrancey.github.io/Code-Quiz-Game/
 
 ## Screenshot
-  ![Alt text](assets/images/CQGscreen.png?raw=true "Screenshot")
+  ![Alt text](assets/CQGscreen.png?raw=true "Screenshot")
 
   
 ## Credits
